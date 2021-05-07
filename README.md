@@ -10,4 +10,4 @@ Steps to reproduce:
 3. make a change inside `src/CountProvider.jsx` (any change, add a whitespace for instance)
 4. watch the white screen and TypeError logged into browser console
 
-To see the difference from the default vite starter, see 4871ee448b27032031960b88c25d2d81b209344b
+To see the difference from the default vite starter, see [this commit](https://github.com/selrond/vite-react-usecontext/commit/4871ee448b27032031960b88c25d2d81b209344b)
