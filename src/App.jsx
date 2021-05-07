@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { CountContext } from './CountProvider'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const { count, setCount } = React.useContext(CountContext)
   return (
     <div className="App">
       <header className="App-header">
